@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+venv/
+ENV/
+pip-wheel-metadata/
+dist/
+build/
+*.log
+
+# Airflow
+airflow.db
+logs/
+*.log
+untracked/
+# Optional: if using SQLite for local testing
+*.sqlite
+# Ignore generated fernet keys
+fernet_key.txt
+
+# Jupyter/Notebook (if used)
+.ipynb_checkpoints/
+
+# Docker
+*.pid
+docker-compose.override.yml
+.env
+
+# VSCode & WSL
+.vscode/
+.vscode-server/
+.history/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Git
+*.swp
+*.swo
